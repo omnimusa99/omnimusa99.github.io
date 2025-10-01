@@ -28,7 +28,7 @@ body {
     /* ... kode lainnya ... */
 
     /* Hapus background-color jika ada, ganti dengan ini: */
-    background-image: url('my-folder/background-image.jpg'); /* Ganti dengan path gambar Anda */
+    background-image: url('gambar/gojo.gif'); /* Ganti dengan path gambar Anda */
     background-size: cover; /* Pastikan gambar menutupi seluruh area */
     background-position: center; /* Posisikan gambar di tengah */
     background-repeat: no-repeat; /* Jangan ulang gambar */
