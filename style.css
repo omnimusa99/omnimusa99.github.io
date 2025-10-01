@@ -25,18 +25,20 @@
     animation-iteration-count: infinite; /* Berapa kali diulang: 'infinite' berarti terus-menerus */
 }
 body {
-    /* ... kode lainnya ... */
+    /* 1. Mengatur gambar latar belakang ke GIF Anda */
+    background-image: url('gojo.gif'); /* Ganti 'background.gif' dengan URL/path GIF Anda */
 
-    /* Hapus background-color jika ada, ganti dengan ini: */
-    background-image: url('gambar/gojo.gif'); /* Ganti dengan path gambar Anda */
-    background-size: cover; /* Pastikan gambar menutupi seluruh area */
-    background-position: center; /* Posisikan gambar di tengah */
-    background-repeat: no-repeat; /* Jangan ulang gambar */
-    background-attachment: fixed; /* Ini yang menciptakan efek parallax */
+    /* 2. Mengatur properti agar GIF menutupi seluruh layar */
+    background-size: cover;
 
-    /* Fallback background-color jika gambar gagal dimuat */
-    background-color: #e0f2f7; 
-    /* ... kode lainnya ... */
+    /* 3. Mencegah GIF terulang (jika GIF kecil) */
+    background-repeat: no-repeat;
+
+    /* 4. Membuat latar belakang tetap diam saat halaman digulir (opsional, tapi disarankan untuk background GIF) */
+    background-attachment: fixed;
+
+    /* 5. Mengatur warna cadangan (solid color) jika GIF gagal dimuat */
+    background-color: #000000; /* Ganti dengan warna cadangan yang sesuai */
 }
     /* style.css */
 
