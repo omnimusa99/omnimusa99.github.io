@@ -138,3 +138,53 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+/* ======================================= */
+/* MEDIA QUERY: ATURAN UNTUK LAYAR MOBILE */
+/* ======================================= */
+
+/* Aturan ini akan diterapkan jika lebar layar (max-width) kurang dari 650px */
+@media (max-width: 650px) {
+
+    /* 1. Mengoptimalkan Kontainer */
+    .container {
+        /* Di layar kecil, kita tidak ingin ada lebar maksimum (max-width) */
+        max-width: 100%; 
+        /* Tingkatkan padding samping agar konten tidak menempel di tepi layar */
+        padding: 0 15px; 
+        /* Kurangi margin atas/bawah agar lebih hemat tempat */
+        margin: 20px auto;
+    }
+
+    /* 2. Mengoptimalkan Ukuran Font */
+    /* Membuat judul lebih kecil agar tidak terlalu besar di ponsel */
+    header h1 {
+        font-size: 2em; 
+    }
+    header p {
+        font-size: 1em;
+    }
+
+    /* 3. Mengoptimalkan Navigasi */
+    nav {
+        /* Tambahkan padding agar menu lebih nyaman disentuh */
+        padding: 10px 0;
+    }
+    /* Kecilkan jarak antar tautan menu */
+    nav a {
+        margin: 0 8px;
+        font-size: 0.9em;
+    }
+
+    /* 4. Mengoptimalkan Gambar */
+    /* Gambar melonjak mungkin terlalu besar, kita pastikan ukurannya pas */
+    .gambar-melonjak {
+        width: 80%; /* Atur lebar menjadi 80% dari lebar layar */
+        margin: 15px auto; /* Pusatkan gambar */
+    }
+    
+    /* 5. Mengoptimalkan Konten (Artikel) */
+    article {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+}
