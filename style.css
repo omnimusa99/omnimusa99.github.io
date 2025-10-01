@@ -55,22 +55,6 @@ html, body {
     animation-timing-function: ease-in-out; /* Tipe gerakan: mulai dan berakhir dengan lambat */
     animation-iteration-count: infinite; /* Berapa kali diulang: 'infinite' berarti terus-menerus */
 }
-body {
-    /* 1. Mengatur gambar latar belakang ke GIF Anda */
-    background-image: url('./my-folder/luffy.gif'); /* Ganti 'background.gif' dengan URL/path GIF Anda */
-
-    /* 2. Mengatur properti agar GIF menutupi seluruh layar */
-    background-size: cover;
-
-    /* 3. Mencegah GIF terulang (jika GIF kecil) */
-    background-repeat: no-repeat;
-
-    /* 4. Membuat latar belakang tetap diam saat halaman digulir (opsional, tapi disarankan untuk background GIF) */
-    background-attachment: fixed;
-
-    /* 5. Mengatur warna cadangan (solid color) jika GIF gagal dimuat */
-    background-color: #000000; /* Ganti dengan warna cadangan yang sesuai */
-}
     /* style.css */
 
 /* Teks dan Badan Utama */
