@@ -38,14 +38,23 @@ body {
     background-color: #e0f2f7; 
     /* ... kode lainnya ... */
 }
-/* Atur font dasar dan hapus margin default dari body */
+    /* style.css */
+
+/* Teks dan Badan Utama */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9; /* Warna latar belakang sangat terang */
-    color: #333; /* Warna teks gelap */
+    background-color: #1a1a1a; /* HARUS GELAP */
+    /* PASTIKAN WARNA TEKS TERANG */
+    color: #ecf0f1; 
+}
+
+/* Judul dan Header */
+header h1, 
+main h2, 
+article h3 {
+    /* WARNA JUDUL HARUS TERANG */
+    color: #ffffff; 
+}
+/* ... dan pastikan link juga berwarna terang (misalnya hijau atau biru muda) */
 }
 /* style.css */
 
