@@ -26,7 +26,7 @@
 }
 body {
     /* 1. Mengatur gambar latar belakang ke GIF Anda */
-    background-image: url('./my-folder/gojo.gif'); /* Ganti 'background.gif' dengan URL/path GIF Anda */
+    background-image: url('./my-folder/Luffy.gif'); /* Ganti 'background.gif' dengan URL/path GIF Anda */
 
     /* 2. Mengatur properti agar GIF menutupi seluruh layar */
     background-size: cover;
