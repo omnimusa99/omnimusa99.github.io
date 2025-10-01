@@ -1,3 +1,29 @@
+/* style.css */
+
+/* 1. DEFINISI KEYFRAMES: Menentukan bagaimana gerakan "lonjak" terjadi */
+@keyframes lonjak {
+    0% { 
+        transform: translateY(0); /* Posisi awal: tidak bergeser */
+    }
+    50% { 
+        transform: translateY(-10px); /* Di tengah durasi: Naik 10 piksel (seperti melonjak) */
+    }
+    100% { 
+        transform: translateY(0); /* Posisi akhir: kembali ke posisi awal */
+    }
+}
+/* 2. PENERAPAN ANIMASI: Menerapkan gerakan 'lonjak' ke class gambar */
+.gambar-melonjak {
+    /* Aturan dasar gambar */
+    display: block; 
+    max-width: 100%;
+
+    /* Aturan Animasi */
+    animation-name: lonjak;              /* Nama resep gerakan yang kita buat di atas */
+    animation-duration: 2s;              /* Durasi satu kali gerakan (2 detik) */
+    animation-timing-function: ease-in-out; /* Tipe gerakan: mulai dan berakhir dengan lambat */
+    animation-iteration-count: infinite; /* Berapa kali diulang: 'infinite' berarti terus-menerus */
+}
 body {
     /* ... kode lainnya ... */
 
