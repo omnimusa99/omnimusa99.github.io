@@ -29,7 +29,7 @@ body {
     background-image: url('./my-folder/gojo.gif'); /* Ganti 'background.gif' dengan URL/path GIF Anda */
 
     /* 2. Mengatur properti agar GIF menutupi seluruh layar */
-    background-size: cover;
+    background-size: contain;
 
     /* 3. Mencegah GIF terulang (jika GIF kecil) */
     background-repeat: no-repeat;
