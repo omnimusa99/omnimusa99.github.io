@@ -44,7 +44,7 @@ body {
 
 /* Teks dan Badan Utama */
 body {
-    background-color: #1a1a1a; /* HARUS GELAP */
+    background-color: #000000; /* HARUS GELAP */
     /* PASTIKAN WARNA TEKS TERANG */
     color: #ecf0f1; 
 }
