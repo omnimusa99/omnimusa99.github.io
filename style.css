@@ -1,3 +1,34 @@
+/* A. Aturan Dasar Body/HTML */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Mencegah scroll horizontal pada mobile */
+}
+
+/* B. Aturan Kunci Video Latar Belakang */
+#video-background {
+  /* Membuat video mengisi seluruh layar */
+  position: fixed; 
+  top: 0;
+  left: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  
+  /* Menempatkan video di belakang semua elemen lain */
+  z-index: -100;
+}
+
+/* C. Aturan Konten (agar teks terlihat jelas di atas video) */
+.content-wrapper {
+  position: relative; 
+  z-index: 10; /* Pastikan konten berada di atas video */
+  padding: 20px; 
+  color: white; /* Contoh: atur warna teks agar kontras */
+}
+
 /* style.css */
 
 /* 1. DEFINISI KEYFRAMES: Menentukan bagaimana gerakan "lonjak" terjadi */
