@@ -1,3 +1,17 @@
+body {
+    /* ... kode lainnya ... */
+
+    /* Hapus background-color jika ada, ganti dengan ini: */
+    background-image: url('my-folder/background-image.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Pastikan gambar menutupi seluruh area */
+    background-position: center; /* Posisikan gambar di tengah */
+    background-repeat: no-repeat; /* Jangan ulang gambar */
+    background-attachment: fixed; /* Ini yang menciptakan efek parallax */
+
+    /* Fallback background-color jika gambar gagal dimuat */
+    background-color: #e0f2f7; 
+    /* ... kode lainnya ... */
+}
 /* Atur font dasar dan hapus margin default dari body */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
