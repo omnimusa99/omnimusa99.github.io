@@ -47,7 +47,32 @@ body {
     background-color: #f9f9f9; /* Warna latar belakang sangat terang */
     color: #333; /* Warna teks gelap */
 }
+/* style.css */
 
+/* Ganti bagian body Anda dengan ini: */
+body {
+    /* Gunakan Lora untuk teks utama agar nyaman dibaca (Serif) */
+    font-family: 'Lora', serif; 
+    line-height: 1.7; /* Tingkatkan line-height agar teks lebih lega */
+    margin: 0;
+    /* ... kode background lainnya ... */
+}
+
+/* Terapkan Poppins untuk Judul (agar terlihat modern dan menonjol) */
+header h1, 
+main h2, 
+article h3,
+nav a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Gunakan tebal (semi-bold) untuk judul */
+    color: #222;
+}
+
+/* Anda juga bisa menambahkan ini untuk deskripsi di header */
+header p {
+    font-family: 'Poppins', sans-serif;
+    /* ... properti lainnya ... */
+}
 /* Container untuk membatasi lebar konten di tengah */
 .container {
     max-width: 650px; /* Lebar yang cukup sempit, seperti blog minimalis */
